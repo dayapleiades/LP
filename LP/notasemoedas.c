@@ -4,9 +4,9 @@
   
 int main(){
      
-    double X; //declaração de variaveis inteiras
-    int Y, Notas100, Notas50, Notas20, Notas10, Notas5, Notas2, Moedas1, Moedas50, Moedas25, Moedas10, Moedas05, Moedas01; //declaração de variaveis double
-    scanf("%lf", &X); //leitura de variaveis inteiras
+    double X; //declaração de variaveis double
+    int Y, Notas100, Notas50, Notas20, Notas10, Notas5, Notas2, Moedas1, Moedas50, Moedas25, Moedas10, Moedas05, Moedas01; //declaração de variaveis inteiras
+    scanf("%lf", &X); //leitura de variaveis double
     Y = X * 100;  // atribuindo o valor a variavel auxiliar
     Notas100 = Y / 10000; // calculando a quantidade de notas
     Y = Y % 10000;
