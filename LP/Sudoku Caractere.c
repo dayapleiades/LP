@@ -1,6 +1,6 @@
 #include <stdio.h> //Inclusão de biblioteca
 
-int main() { //Programa principal
+int main() { // Programa principal
   int ni, i, j, x, y, count = 1, aux = 1, c1, count2; // Declarando variáveis
   char v[9][9]; // Declarando matriz 9x9
   scanf("%d", &ni); // Lendo número de instâncias
